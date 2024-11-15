@@ -1,0 +1,18 @@
+- Nguồn điện:
+	+ Cực dương của nguồn điện nối với chân VCC của module Sim800L
+	+ Cực âm của nguồn điện nối với: chân GND của module ESP32, chân GND của module Sim800L, chân GND của module NEO 6MV2, chân GND của module MAX30100.
+
+- Module MAX30100:
+	+ Chân VIN của module MAX30100 nối với chân 3V3 của module ESP32
+	+ Chân SCL của module MAX30100 nối với chân D22 của module ESP32
+	+ Chân SDA của module MAX30100 nối với chân D21 của module ESP32
+	+ Chân INT của module MAX30100 nối với chân D19 của module ESP32
+
+- Module NEO 6MV2:
+	+ Chân VCC của module NEO 6MV2 nối với chân 3V3 của module ESP32
+	+ Chân RX của module NEO 6MV2 nối với chân TX2 của module ESP32
+	+ Chân TX của module NEO 6MV2 nói với chân RX2 của module ESP32
+
+- Module Sim800L:
+	+ Chân RXD của module Sim800L nối với chân D2 của module ESP32
+	+ Chân TXD của module Sim800L nối với chân D4 của module ESP32
